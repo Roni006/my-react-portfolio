@@ -1,22 +1,27 @@
-import React, { useState } from 'react';
-import { motion } from 'motion/react';
-import { Send, MapPin, Phone, Mail } from 'lucide-react';
-import { SOCIALS } from '../constants';
+import React, { useState } from "react";
+import { motion } from "motion/react";
+import { Send, MapPin, Phone, Mail } from "lucide-react";
+import { SOCIALS } from "../constants";
+
+import { VscGithubAlt } from "react-icons/vsc";
+import { SlSocialLinkedin } from "react-icons/sl";
+import { SlSocialTwitter } from "react-icons/sl";
+import { SlSocialFacebook } from "react-icons/sl";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
     // Add real submission logic or toast notification here
-    alert('Thank you! Your message has been sent.');
-    setFormData({ name: '', email: '', subject: '', message: '' });
+    alert("Thank you! Your message has been sent.");
+    setFormData({ name: "", email: "", subject: "", message: "" });
   };
 
   return (
@@ -30,10 +35,16 @@ export default function Contact() {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-sm uppercase tracking-widest text-primary-500 font-bold mb-4">Contact</h2>
-            <h3 className="text-4xl lg:text-6xl font-display font-bold mb-8 italic">Let's <span className="text-white">Collaborate.</span></h3>
+            <h2 className="text-sm uppercase tracking-widest text-primary-500 font-bold mb-4">
+              Contact
+            </h2>
+            <h3 className="text-4xl lg:text-6xl font-display font-bold mb-8 italic">
+              Let's <span className="text-white">Collaborate.</span>
+            </h3>
             <p className="text-zinc-400 text-lg mb-12 max-w-md">
-              Have a project in mind or just want to chat about development? Feel free to reach out. I'm always open to discussing new opportunities and challenges.
+              Have a project in mind or just want to chat about development?
+              Feel free to reach out. I'm always open to discussing new
+              opportunities and challenges.
             </p>
 
             <div className="space-y-8 mb-12">
@@ -42,8 +53,15 @@ export default function Contact() {
                   <Mail size={20} />
                 </div>
                 <div>
-                  <div className="text-xs uppercase tracking-wider text-zinc-500 font-bold mb-1">Email Me</div>
-                  <a href="mailto:hello@aura.dev" className="text-lg font-medium text-white hover:text-primary-400 transition-colors">hello@aura.dev</a>
+                  <div className="text-xs uppercase tracking-wider text-zinc-500 font-bold mb-1">
+                    Email Me
+                  </div>
+                  <a
+                    href="mailto:anik54908@gmail.com"
+                    className="text-lg font-medium text-white hover:text-primary-400 transition-colors"
+                  >
+                    anik54908@gmail.com
+                  </a>
                 </div>
               </div>
 
@@ -52,8 +70,15 @@ export default function Contact() {
                   <Phone size={20} />
                 </div>
                 <div>
-                  <div className="text-xs uppercase tracking-wider text-zinc-500 font-bold mb-1">Call Me</div>
-                  <a href="tel:+1234567890" className="text-lg font-medium text-white hover:text-primary-400 transition-colors">+1 (234) 567 890</a>
+                  <div className="text-xs uppercase tracking-wider text-zinc-500 font-bold mb-1">
+                    Call Me
+                  </div>
+                  <a
+                    href="tel:01774952114"
+                    className="text-lg font-medium text-white hover:text-primary-400 transition-colors"
+                  >
+                    01774952114
+                  </a>
                 </div>
               </div>
 
@@ -62,28 +87,50 @@ export default function Contact() {
                   <MapPin size={20} />
                 </div>
                 <div>
-                  <div className="text-xs uppercase tracking-wider text-zinc-500 font-bold mb-1">Location</div>
-                  <div className="text-lg font-medium text-white">San Francisco, CA</div>
+                  <div className="text-xs uppercase tracking-wider text-zinc-500 font-bold mb-1">
+                    Location
+                  </div>
+                  <div className="text-lg font-medium text-white">
+                    34, West Nakhal Para,
+                    <br /> Tejgaon Dhaka-1215
+                  </div>
                 </div>
               </div>
             </div>
 
+            {/* icons */}
             <div className="flex gap-4">
-              {SOCIALS.map((social) => (
-                <a
-                  key={social.name}
-                  href={social.href}
-                  className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center text-zinc-400 hover:bg-white/10 hover:text-white hover:border-white/20 transition-all"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <social.icon size={20} />
+              {/* item 1 */}
+              <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
+                <a href="#">
+                  <SlSocialFacebook />
                 </a>
-              ))}
+              </div>
+
+              {/* item 2 */}
+              <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
+                <a href="#">
+                  <SlSocialTwitter />
+                </a>
+              </div>
+
+              {/* item 3 */}
+              <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
+                <a href="#">
+                  <VscGithubAlt />
+                </a>
+              </div>
+
+              {/* item 1 */}
+              <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
+                <a href="#" >
+                  <SlSocialLinkedi />
+                </a>
+              </div>
             </div>
           </motion.div>
 
-          {/* Right: Form */}
+          {/* Right:   */}
           <motion.div
             initial={{ opacity: 0, x: 50 }}
             whileInView={{ opacity: 1, x: 0 }}
@@ -92,27 +139,38 @@ export default function Contact() {
             className="relative"
           >
             <div className="absolute inset-0 bg-primary-600/10 blur-[100px] -z-10 rounded-full" />
-            
-            <form onSubmit={handleSubmit} className="glass-card p-5 md:p-10 lg:p-12 space-y-8 lg:space-y-10">
+
+            <form
+              onSubmit={handleSubmit}
+              className="glass-card p-5 md:p-10 lg:p-12 space-y-8 lg:space-y-10"
+            >
               <div className="grid md:grid-cols-2 gap-6 lg:gap-10">
                 <div className="space-y-4">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">Full Name</label>
+                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">
+                    Full Name
+                  </label>
                   <input
                     required
                     type="text"
                     value={formData.name}
-                    onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, name: e.target.value })
+                    }
                     placeholder="John Doe"
                     className="w-full px-5 py-3 lg:px-6 lg:py-4 rounded-xl bg-white/5 border border-white/10 focus:border-primary-500 focus:outline-none transition-colors text-white placeholder:text-zinc-600"
                   />
                 </div>
                 <div className="space-y-4">
-                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">Email Address</label>
+                  <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">
+                    Email Address
+                  </label>
                   <input
                     required
                     type="email"
                     value={formData.email}
-                    onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+                    onChange={(e) =>
+                      setFormData({ ...formData, email: e.target.value })
+                    }
                     placeholder="john@example.com"
                     className="w-full px-5 py-3 lg:px-6 lg:py-4 rounded-xl bg-white/5 border border-white/10 focus:border-primary-500 focus:outline-none transition-colors text-white placeholder:text-zinc-600"
                   />
@@ -120,24 +178,32 @@ export default function Contact() {
               </div>
 
               <div className="space-y-4">
-                <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">Subject</label>
+                <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">
+                  Subject
+                </label>
                 <input
                   required
                   type="text"
                   value={formData.subject}
-                  onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, subject: e.target.value })
+                  }
                   placeholder="Project Inquiry"
                   className="w-full px-5 py-3 lg:px-6 lg:py-4 rounded-xl bg-white/5 border border-white/10 focus:border-primary-500 focus:outline-none transition-colors text-white placeholder:text-zinc-600"
                 />
               </div>
 
               <div className="space-y-4">
-                <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">Message</label>
+                <label className="text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-500 ml-1 block mb-2">
+                  Message
+                </label>
                 <textarea
                   required
                   rows={4}
                   value={formData.message}
-                  onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+                  onChange={(e) =>
+                    setFormData({ ...formData, message: e.target.value })
+                  }
                   placeholder="Tell me about your project..."
                   className="w-full px-5 py-3 lg:px-6 lg:py-4 rounded-xl bg-white/5 border border-white/10 focus:border-primary-500 focus:outline-none transition-colors text-white placeholder:text-zinc-600 resize-none"
                 />
