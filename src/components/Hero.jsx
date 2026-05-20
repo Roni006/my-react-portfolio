@@ -85,10 +85,10 @@ export default function Hero() {
               // src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800"
               src={userImage}
               alt="Professional Front-End Developer"
-              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
+              className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-300 cursor-pointer"
               referrerPolicy="no-referrer"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" />
+            {/* <div className="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent opacity-60" /> */}
           </div>
 
           {/* Decorative elements behind image */}
@@ -106,11 +106,11 @@ export default function Hero() {
                 <ArrowRight size={20} className="-rotate-45" />
               </div>
               <div>
-                <div className="text-xs font-bold text-zinc-500 uppercase tracking-widest">
+                {/* <div className="text-xs font-bold text-zinc-500 uppercase tracking-widest">
                   Focus
-                </div>
+                </div> */}
                 <div className="text-sm font-bold text-white">
-                  Modern UI & Performance
+                  Front End Developer
                 </div>
               </div>
             </div>
