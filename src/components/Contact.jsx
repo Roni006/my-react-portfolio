@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "motion/react";
 import { Send, MapPin, Phone, Mail } from "lucide-react";
-import { SOCIALS } from "../constants";
+// import { SOCIALS } from "../constants";
 
 import { VscGithubAlt } from "react-icons/vsc";
 import { SlSocialLinkedin } from "react-icons/sl";

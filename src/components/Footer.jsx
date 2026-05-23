@@ -1,5 +1,5 @@
 import React from "react";
-import { SOCIALS } from "../constants";
+// import { SOCIALS } from "../constants";
 
 export default function Footer() {
   return (

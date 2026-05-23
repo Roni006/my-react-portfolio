@@ -73,9 +73,8 @@ export default function Portfolio() {
               >
                 <div className="relative overflow-hidden rounded-3xl aspect-16/10">
                   <img
-                    // src={project.image}
-                    src={portfolio1}
-                    alt="Agency"
+                    src={project.image} 
+                    alt={project.title}
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                     referrerPolicy="no-referrer"
                   />
@@ -85,7 +84,7 @@ export default function Portfolio() {
                   <div className="absolute inset-x-8 bottom-8 flex justify-between items-end translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300">
                     <div className="flex gap-4">
                       <a
-                        href="https://agenc-gules.vercel.app/"
+                        href={project.demo}
                         className="w-12 h-12 rounded-full bg-white text-black flex items-center justify-center hover:bg-primary-500 hover:text-white transition-all shadow-xl"
                         target="_blank"
                         rel="noreferrer"
@@ -93,10 +92,10 @@ export default function Portfolio() {
                         <ExternalLink size={20} />
                       </a>
                       <a
-                        href="https://github.com/Roni006/agenc.git"
+                        href={project.github} 
                         className="w-12 h-12 rounded-full bg-zinc-900 text-white flex items-center justify-center hover:bg-zinc-800 transition-all border border-white/10 shadow-xl"
                         target="_blank"
-                        rel="noreferrer"
+                        rel="norefe rrer"
                       >
                         <Github size={20} />
                       </a>
@@ -117,11 +116,10 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <h4 className="text-2xl font-bold text-white group-hover:text-primary-400 transition-colors">
-                    Agency
+                   {project.title}
                   </h4>
                   <p className="text-zinc-400 line-clamp-2 leading-relaxed">
-                    Creative agency delivering modern web experiences and
-                    innovative digital solutions.
+                    {project.description}
                   </p>
                 </div>
               </motion.div>

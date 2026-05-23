@@ -1,5 +1,8 @@
 import { Code2, Layout, Smartphone, Palette, Globe, Gauge, Github, Linkedin, Mail, Twitter, ExternalLink } from 'lucide-react';
 
+import agencyLandig from '../src/assets/img/portfolio/portfolio1.png'
+
+
 export const NAV_LINKS = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
@@ -8,6 +11,9 @@ export const NAV_LINKS = [
   { name: 'Testimonials', href: '#testimonials' },
   { name: 'Contact', href: '#contact' },
 ];
+
+
+
 
 export const SERVICES = [
   {
@@ -43,67 +49,94 @@ export const SERVICES = [
 ];
 
 export const PROJECTS = [
-  {
-    id: 1,
-    title: 'Nexus Dashboard',
-    description: 'A high-performance analytics dashboard for SaaS companies with real-time data visualization.',
-    tags: ['React', 'TypeScript', 'Tailwind', 'Recharts'],
-    category: 'Dashboard',
-    image: 'https://images.unsplash.com/photo-1551288049-bbda38a5f850?auto=format&fit=crop&q=80&w=800',
-    demo: '#',
-    github: '#',
-  },
+
+  // ! dashboard
+  // {
+  //   id: 1,
+  //   title: "Nexus Dashboard",
+  //   description:
+  //     "A high-performance analytics dashboard for SaaS companies with real-time data visualization.",
+  //   tags: ["React", "TypeScript", "Tailwind", "Recharts"],
+  //   category: "Dashboard",
+  //   image:
+  //     "https://images.unsplash.com/photo-1551288049-bbda38a5f850?auto=format&fit=crop&q=80&w=800",
+  //   demo: "#",
+  //   github: "#",
+  // },
+
+  // ! E-commerce
   {
     id: 2,
-    title: 'Ethereal E-Commerce',
-    description: 'A premium lifestyle brand store with seamless transitions and a custom cart implementation.',
-    tags: ['Next.js', 'Framer Motion', 'Stripe'],
-    category: 'E-commerce',
-    image: 'https://images.unsplash.com/photo-1523381295211-ad946e1c84f6?auto=format&fit=crop&q=80&w=800',
-    demo: '#',
-    github: '#',
+    title: "Ethereal E-Commerce",
+    description:
+      "A premium lifestyle brand store with seamless transitions and a custom cart implementation.",
+    tags: ["Next.js", "Framer Motion", "Stripe"],
+    category: "E-commerce",
+    image:
+      "https://images.unsplash.com/photo-1523381295211-ad946e1c84f6?auto=format&fit=crop&q=80&w=800",
+    demo: "#",
+    github: "#",
   },
-  {
+
+  // ! App
+  { 
     id: 3,
-    title: 'Aura Social App',
-    description: 'Minimalist social platform focused on deep connections and privacy-first architecture.',
-    tags: ['React Native', 'Firebase', 'Redux'],
-    category: 'App',
-    image: 'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800',
-    demo: '#',
-    github: '#',
+    title: "Aura Social App",
+    description:
+      "Minimalist social platform focused on deep connections and privacy-first architecture.",
+    tags: ["React Native", "Firebase", "Redux"],
+    category: "App",
+    image:
+      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
+    demo: "#",
+    github: "#",
   },
+
+  // ! Landing Page
   {
     id: 4,
-    title: 'Vertex Landing',
-    description: 'A high-impact landing page for a cutting-edge AI software startup.',
-    tags: ['React', 'GSAP', 'Vite'],
-    category: 'Landing Page',
-    image: 'https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&q=80&w=800',
-    demo: '#',
-    github: '#',
+    title: "Agency Landing Page",
+    description:
+      "Creative agency delivering modern web experiences and innovative digital solutions.",
+    tags: ["React", "GSAP", "Vite"],
+    category: "Landing Page",
+    image:
+      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&q=80&w=800",
+    // image: {agencyLandig},
+    demo: "https://agenc-gules.vercel.app/",
+    github: "https://github.com/Roni006/agenc.git",
   },
-  {
-    id: 5,
-    title: 'Pulse Fitness App',
-    description: 'A comprehensive workout tracking application with social challenges.',
-    tags: ['Next.js', 'PostgreSQL', 'Tailwind'],
-    category: 'App',
-    image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800',
-    demo: '#',
-    github: '#',
-  },
+
+
+  // ! app
+  // {
+  //   id: 5,
+  //   title: "Pulse Fitness App",
+  //   description:
+  //     "A comprehensive workout tracking application with social challenges.",
+  //   tags: ["Next.js", "PostgreSQL", "Tailwind"],
+  //   category: "App",
+  //   image:
+  //     "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&q=80&w=800",
+  //   demo: "#",
+  //   github: "#",
+  // },
+
+  // !Dashboard
   {
     id: 6,
-    title: 'Nova Crypto',
-    description: 'Real-time cryptocurrency tracking and portfolio management interface.',
-    tags: ['React', 'D3.js', 'WebSockets'],
-    category: 'Dashboard',
-    image: 'https://images.unsplash.com/photo-1621761191319-c6fb5200c40b?auto=format&fit=crop&q=80&w=800',
-    demo: '#',
-    github: '#',
+    title: "Nova Crypto",
+    description:
+      "Real-time cryptocurrency tracking and portfolio management interface.",
+    tags: ["React", "D3.js", "WebSockets"],
+    category: "Dashboard",
+    image:
+      "https://images.unsplash.com/photo-1621761191319-c6fb5200c40b?auto=format&fit=crop&q=80&w=800",
+    demo: "#",
+    github: "#",
   },
 ];
+
 
 export const TESTIMONIALS = [
   {
