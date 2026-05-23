@@ -103,27 +103,33 @@ export default function Contact() {
               {/* item 1 */}
               <div className="group cursor-pointer">
                 <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a href="#">
+                  <a
+                    href="https://www.facebook.com/anik.islam.roni.06"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <SlSocialFacebook />
                   </a>
                 </div>
               </div>
 
-             
-
-              {/* item 3 */}
+              {/* item 2 */}
               <div className="group cursor-pointer">
                 <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a href="#">
+                  <a
+                    href="https://github.com/Roni006"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <VscGithubAlt />
                   </a>
                 </div>
               </div>
 
-              {/* item 1 */}
+              {/* item 3 */}
               <div className="group cursor-pointer">
                 <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/anik-islam-293414306/" target="_blank" rel="noopener noreferrer">
                     <SlSocialLinkedin />
                   </a>
                 </div>
