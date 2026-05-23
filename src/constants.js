@@ -132,14 +132,14 @@ export const SKILLS = [
 ];
 
 export const STATS = [
-  { label: 'Years Experience', value: '5+' },
-  { label: 'Projects Completed', value: '40+' },
+  { label: 'Years Experience', value: '3+' },
+  { label: 'Projects Completed', value: '30+' },
   { label: 'Client Satisfaction', value: '100%' },
 ];
 
-export const SOCIALS = [
-  { name: 'GitHub', icon: Github, href: 'https://github.com' },
-  { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com' },
-  { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
-  { name: 'Email', icon: Mail, href: 'mailto:hello@aura.dev' },
-];
+// export const SOCIALS = [
+//   { name: 'GitHub', icon: Github, href: 'https://github.com' },
+//   { name: 'LinkedIn', icon: Linkedin, href: 'https://linkedin.com' },
+//   { name: 'Twitter', icon: Twitter, href: 'https://twitter.com' },
+//   { name: 'Email', icon: Mail, href: 'mailto:hello@aura.dev' },
+// ];
