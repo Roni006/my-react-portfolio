@@ -109,14 +109,7 @@ export default function Contact() {
                 </div>
               </div>
 
-              {/* item 2 */}
-              <div className="group cursor-pointer">
-                <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a href="#">
-                    <SlSocialTwitter />
-                  </a>
-                </div>
-              </div>
+             
 
               {/* item 3 */}
               <div className="group cursor-pointer">
