@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-8 text-center lg:text-left">
         <div className="flex flex-col items-center lg:items-start">
           <a href="#home" className="text-xl font-display font-bold tracking-tighter">
-            AURA<span className="text-primary-500">.</span>
+            AnikUi<span className="text-primary-500">.</span>
           </a>
           <p className="text-zinc-500 text-sm mt-3">
             © {new Date().getFullYear()} Aura Portfolio. All rights reserved.
