@@ -49,7 +49,6 @@ export const SERVICES = [
 ];
 
 export const PROJECTS = [
-
   // ! dashboard
   // {
   //   id: 1,
@@ -67,19 +66,29 @@ export const PROJECTS = [
   // ! E-commerce
   {
     id: 2,
-    title: "Ethereal E-Commerce",
+    title: "Aentastic E-Commerce",
     description:
-      "A premium lifestyle brand store with seamless transitions and a custom cart implementation.",
-    tags: ["Next.js", "Framer Motion", "Stripe"],
+      "A modern e-commerce experience with smooth interactions and a fully custom shopping cart.",
+    tags: ["CMS", "WordPress", "WooCommerce", "Elementor Pro"],
     category: "E-commerce",
-    image:
-      "https://images.unsplash.com/photo-1523381295211-ad946e1c84f6?auto=format&fit=crop&q=80&w=800",
-    demo: "#",
-    github: "#",
+    image: "https://aentastic.com/wp-content/uploads/2026/05/ecommerce.png",
+    demo: "https://aentastic.com/",
+    // github: "",
+  },
+  {
+    id: 3,
+    title: "LuxeLane E-Commerce",
+    description:
+      "A stylish e-commerce platform focused on smooth interactions and modern user experience.",
+    tags: ["CMS", "WordPress", "WooCommerce", "Elementor Pro"],
+    category: "E-commerce",
+    image: "https://aentastic.com/wp-content/uploads/2026/05/portfolio2.png",
+    demo: "https://dev-developerccit.pantheonsite.io/",
+    // github: "",
   },
 
   // ! App
-  { 
+  {
     id: 3,
     title: "Aura Social App",
     description:
@@ -100,13 +109,21 @@ export const PROJECTS = [
       "Creative agency delivering modern web experiences and innovative digital solutions.",
     tags: ["React", "GSAP", "Vite"],
     category: "Landing Page",
-    image:
-      "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&q=80&w=800",
-    // image: {agencyLandig},
+    image: "https://aentastic.com/wp-content/uploads/2026/05/portfolio1.png",
     demo: "https://agenc-gules.vercel.app/",
     github: "https://github.com/Roni006/agenc.git",
   },
-
+  {
+    id: 4,
+    title: "CreDesign Landing Page",
+    description:
+      "A modern agency focused on clean design and innovative digital solutions..",
+    tags: ["HTML5", "CSS3"],
+    category: "Landing Page",
+    image: "https://aentastic.com/wp-content/uploads/2026/05/creDesign.png",
+    demo: "https://roni006.github.io/credesign/",
+    github: "https://github.com/Roni006/credesign.git",
+  },
 
   // ! app
   // {
