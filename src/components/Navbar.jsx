@@ -31,8 +31,8 @@ export default function Navbar() {
   return (
     <nav className={`fixed top-4 left-0 right-0 z-50 transition-all duration-500 px-4 sm:px-6`}>
       <div className={`max-w-6xl mx-auto px-4 md:px-8 py-4 md:py-5 rounded-full transition-all duration-500 flex justify-between items-center ${isScrolled ? 'glass-nav shadow-2xl border border-white/10' : 'bg-transparent'}`}>
-        <a href="#home" className="text-lg md:text-xl font-display font-bold tracking-tighter shrink-0">
-          AnikUi<span className="text-primary-500">.</span>
+        <a href="#home" className="text-[22px]  font-display font-bold tracking-tighter shrink-0">
+          AnikUi<span className="text-primary-500"> .</span>
         </a>
 
         {/* Desktop Nav - Adjust breakpoint to lg for more space */}
