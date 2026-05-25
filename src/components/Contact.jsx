@@ -3,10 +3,7 @@ import { motion } from "motion/react";
 import { Send, MapPin, Phone, Mail } from "lucide-react";
 // import { SOCIALS } from "../constants";
 
-import { VscGithubAlt } from "react-icons/vsc";
-import { SlSocialLinkedin } from "react-icons/sl";
-import { SlSocialTwitter } from "react-icons/sl";
-import { SlSocialFacebook } from "react-icons/sl";
+
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -100,40 +97,7 @@ export default function Contact() {
 
             {/*icons */}
             <div className="flex gap-4">
-              {/* item 1 */}
-              <div className="group cursor-pointer">
-                <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a
-                    href="https://www.facebook.com/anik.islam.roni.06"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <SlSocialFacebook />
-                  </a>
-                </div>
-              </div>
-
-              {/* item 2 */}
-              <div className="group cursor-pointer">
-                <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a
-                    href="https://github.com/Roni006"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <VscGithubAlt />
-                  </a>
-                </div>
-              </div>
-
-              {/* item 3 */}
-              <div className="group cursor-pointer">
-                <div className="w-12 h-12 rounded-2xl bg-white/5 border border-white/10 flex items-center justify-center text-primary-400 group group-hover:bg-primary-500 group-hover:text-white transition-all text-[20px]">
-                  <a href="https://www.linkedin.com/in/anik-islam-293414306/" target="_blank" rel="noopener noreferrer">
-                    <SlSocialLinkedin />
-                  </a>
-                </div>
-              </div>
+             
             </div>
           </motion.div>
 
