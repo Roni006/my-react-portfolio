@@ -8,7 +8,7 @@ import { SlSocialFacebook } from "react-icons/sl";
 export default function Footer() {
   return (
     <footer className="border-t border-white/5 py-12 px-6 lg:px-12 bg-zinc-950">
-      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-8 text-center lg:text-left">
+      <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-5 lg:gap-8 text-center lg:text-left">
         <div className="flex flex-col items-center lg:items-start w-87.5">
           <a
             href="#home"
@@ -18,7 +18,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <div className="text-zinc-500 text-sm w-115">
+        <div className="text-zinc-500 text-sm max-w-115">
           <p className="text-zinc-500 text-sm mt-3">
             © {new Date().getFullYear()} All rights reserved. Designed and
             developed by Anik Islam.
