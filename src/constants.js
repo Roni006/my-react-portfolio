@@ -117,7 +117,7 @@ export const PROJECTS = [
     github: "https://github.com/Roni006/agenc.git",
   },
   {
-    id: 5 ,
+    id: 5,
     title: "CreDesign Landing Page",
     description:
       "A modern agency focused on clean design and innovative digital solutions..",
@@ -127,6 +127,42 @@ export const PROJECTS = [
       "https://wptc2501.ccit.online/wp-content/uploads/2026/05/creDesign.png",
     demo: "https://roni006.github.io/credesign/",
     github: "https://github.com/Roni006/credesign.git",
+  },
+  {
+    id: 6,
+    title: "Foodiest Template",
+    description:
+      "Elegant food and restaurant template built with modern design aesthetics.",
+    tags: ["HTML5", "CSS3", "BOOTSTRAP"],
+    category: "Landing Page",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/Screenshot-2025-05-19-004230-Copy-1.png",
+    demo: "https://roni006.github.io/Foodist/",
+    github: "https://github.com/Roni006/Foodist.git",
+  },
+  {
+    id: 7,
+    title: "Portfolio Landing Page",
+    description:
+      "Modern portfolio template with clean visuals and smooth interactions.",
+    tags: ["HTML5", "CSS3", "BOOTSTRAP"],
+    category: "Landing Page",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/I-will-copyclone-redesign-and-customize-any-wordpress-website-design-you-need-Copy.png",
+    demo: "https://roni006.github.io/elixir/",
+    github: "https://github.com/Roni006/elixir.git",
+  },
+  {
+    id: 8,
+    title: "Saifulio Template",
+    description:
+      "Professional portfolio experience with sleek design and smooth performance.",
+    tags: ["HTML5", "CSS3", "BOOTSTRAP"],
+    category: "Landing Page",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/Screenshot-2025-05-19-004241.png",
+    demo: "https://roni006.github.io/saifulio/",
+    github: "https://github.com/Roni006/saifulio.git",
   },
 
   // ! app
