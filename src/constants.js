@@ -88,6 +88,18 @@ export const PROJECTS = [
     demo: "https://dev-developerccit.pantheonsite.io/",
     // github: "",
   },
+  {
+    id: 4,
+    title: "Candeleaf E-Commerce",
+    description:
+      "Modern candle shopping platform designed with clean aesthetics and responsive experience.",
+    tags: ["HTML5", "CSS3", "BOOTSTRAP"],
+    category: "E-commerce",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/Screenshot-2025-11-12-001222.png",
+    demo: "https://roni006.github.io/candeleaf/assets/index.html",
+    github: "https://github.com/Roni006/candeleaf.git",
+  },
 
   // ! App
   // {
