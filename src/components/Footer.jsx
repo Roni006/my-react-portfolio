@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="flex flex-col items-center lg:items-start w-87.5">
           <a
             href="#home"
-            className="text-xl font-display font-bold tracking-tighter"
+            className="text-[28px] font-display font-bold tracking-tighter"
           >
             AnikUi<span className="text-primary-500">.</span>
           </a>
