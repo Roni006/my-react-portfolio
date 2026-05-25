@@ -71,7 +71,8 @@ export const PROJECTS = [
       "A modern e-commerce experience with smooth interactions and a fully custom shopping cart.",
     tags: ["CMS", "WordPress", "WooCommerce", "Elementor Pro"],
     category: "E-commerce",
-    image: "https://aentastic.com/wp-content/uploads/2026/05/ecommerce.png",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/ecommerce.png",
     demo: "https://aentastic.com/",
     // github: "",
   },
@@ -82,45 +83,48 @@ export const PROJECTS = [
       "A stylish e-commerce platform focused on smooth interactions and modern user experience.",
     tags: ["CMS", "WordPress", "WooCommerce", "Elementor Pro"],
     category: "E-commerce",
-    image: "https://aentastic.com/wp-content/uploads/2026/05/portfolio2.png",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/portfolio2.png",
     demo: "https://dev-developerccit.pantheonsite.io/",
     // github: "",
   },
 
   // ! App
-  {
-    id: 3,
-    title: "Aura Social App",
-    description:
-      "Minimalist social platform focused on deep connections and privacy-first architecture.",
-    tags: ["React Native", "Firebase", "Redux"],
-    category: "App",
-    image:
-      "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
-    demo: "#",
-    github: "#",
-  },
+  // {
+  //   id: 3,
+  //   title: "Aura Social App",
+  //   description:
+  //     "Minimalist social platform focused on deep connections and privacy-first architecture.",
+  //   tags: ["React Native", "Firebase", "Redux"],
+  //   category: "App",
+  //   image:
+  //     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
+  //   demo: "#",
+  //   github: "#",
+  // },
 
   // ! Landing Page
   {
     id: 4,
-    title: "Agency Landing Page",
+    title: "AgenC Landing Page",
     description:
       "Creative agency delivering modern web experiences and innovative digital solutions.",
     tags: ["React", "GSAP", "Vite"],
     category: "Landing Page",
-    image: "https://aentastic.com/wp-content/uploads/2026/05/portfolio1.png",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/portfolio1.png",
     demo: "https://agenc-gules.vercel.app/",
     github: "https://github.com/Roni006/agenc.git",
   },
   {
-    id: 4,
+    id: 5 ,
     title: "CreDesign Landing Page",
     description:
       "A modern agency focused on clean design and innovative digital solutions..",
     tags: ["HTML5", "CSS3"],
     category: "Landing Page",
-    image: "https://aentastic.com/wp-content/uploads/2026/05/creDesign.png",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/05/creDesign.png",
     demo: "https://roni006.github.io/credesign/",
     github: "https://github.com/Roni006/credesign.git",
   },
@@ -140,18 +144,18 @@ export const PROJECTS = [
   // },
 
   // !Dashboard
-  {
-    id: 6,
-    title: "Nova Crypto",
-    description:
-      "Real-time cryptocurrency tracking and portfolio management interface.",
-    tags: ["React", "D3.js", "WebSockets"],
-    category: "Dashboard",
-    image:
-      "https://images.unsplash.com/photo-1621761191319-c6fb5200c40b?auto=format&fit=crop&q=80&w=800",
-    demo: "#",
-    github: "#",
-  },
+  // {
+  //   id: 6,
+  //   title: "Nova Crypto",
+  //   description:
+  //     "Real-time cryptocurrency tracking and portfolio management interface.",
+  //   tags: ["React", "D3.js", "WebSockets"],
+  //   category: "Dashboard",
+  //   image:
+  //     "https://images.unsplash.com/photo-1621761191319-c6fb5200c40b?auto=format&fit=crop&q=80&w=800",
+  //   demo: "#",
+  //   github: "#",
+  // },
 ];
 
 
