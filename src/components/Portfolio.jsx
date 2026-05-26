@@ -5,7 +5,7 @@ import { PROJECTS } from '../constants';
 
 import portfolio1 from '../../src/assets/img/portfolio/portfolio1.png'
 
-const CATEGORIES = ['All','E-commerce', 'Landing Page',"Event"];
+const CATEGORIES = ['All','E-commerce', 'Landing Page',"Event","Consultancy"];
 
 export default function Portfolio() {
   const [activeCategory, setActiveCategory] = useState('All');

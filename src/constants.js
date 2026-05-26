@@ -49,20 +49,6 @@ export const SERVICES = [
 ];
 
 export const PROJECTS = [
-  // ! dashboard
-  // {
-  //   id: 1,
-  //   title: "Nexus Dashboard",
-  //   description:
-  //     "A high-performance analytics dashboard for SaaS companies with real-time data visualization.",
-  //   tags: ["React", "TypeScript", "Tailwind", "Recharts"],
-  //   category: "Dashboard",
-  //   image:
-  //     "https://images.unsplash.com/photo-1551288049-bbda38a5f850?auto=format&fit=crop&q=80&w=800",
-  //   demo: "#",
-  //   github: "#",
-  // },
-
   // ! E-commerce
   {
     id: 2,
@@ -100,20 +86,6 @@ export const PROJECTS = [
     demo: "https://roni006.github.io/candeleaf/assets/index.html",
     github: "https://github.com/Roni006/candeleaf.git",
   },
-
-  // ! App
-  // {
-  //   id: 3,
-  //   title: "Aura Social App",
-  //   description:
-  //     "Minimalist social platform focused on deep connections and privacy-first architecture.",
-  //   tags: ["React Native", "Firebase", "Redux"],
-  //   category: "App",
-  //   image:
-  //     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
-  //   demo: "#",
-  //   github: "#",
-  // },
 
   // ! Landing Page
   {
@@ -176,6 +148,34 @@ export const PROJECTS = [
     demo: "https://roni006.github.io/saifulio/",
     github: "https://github.com/Roni006/saifulio.git",
   },
+
+  //! Consultancy
+  {
+    id: 1,
+    title: "Strategic Consulting",
+    description:
+      "Modern strategic consulting platform focused on data-driven solutions and business growth.",
+    tags: ["CMS", "WordPress", "Elementor Pro"],
+    category: "Consultancy",
+    image:
+      "https://wptc2501.ccit.online/wp-content/uploads/2026/02/Screenshot-2026-02-24-000600.png",
+    demo: "https://practice.ccit.online/",
+    // github: "",
+  },
+
+  // ! App
+  // {
+  //   id: 3,
+  //   title: "Aura Social App",
+  //   description:
+  //     "Minimalist social platform focused on deep connections and privacy-first architecture.",
+  //   tags: ["React Native", "Firebase", "Redux"],
+  //   category: "App",
+  //   image:
+  //     "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=800",
+  //   demo: "#",
+  //   github: "#",
+  // },
 
   // ! app
   // {
